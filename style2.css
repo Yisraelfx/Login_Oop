@@ -1,0 +1,116 @@
+body {
+  background-color: #1935aa; 
+  background-image: url(../img/Vector\ 1\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+#signup-container {
+  background-color: white;
+  margin: auto;
+  /* border-radius: 15.17px; */
+}
+#signup-container h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #000000;
+}
+#signup-container p {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 20px;
+  color: #697d95;
+}
+#name-label{
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 25px;
+}
+input::placeholder{
+  font-size: 12px;
+  color: #BAC7D5;
+}
+
+#login-btn, #submit-btn {
+  background-color: #1935aa;
+  border-radius: 8px;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+}
+
+.line {
+  height: 1px;
+  width: 10%;
+  background-color: #697d95;
+  margin-top: 10px;
+}
+
+.or {
+  width: 80%;
+  font-size: 12px;
+  color: #697d95;
+  line-height: 20px;
+  font-weight: 500;
+  padding: 0 !important;
+}
+
+#facebook-btn,
+#google-btn {
+  padding: 8.53px, 13.27px, 8.53px, 13.27px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px #0000001a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #4F5E71;
+  font-weight: 600;
+}
+#facebook-btn,#google-btn span{
+  font-size: 12px;
+
+}
+#buttom-text p {
+  color: #697d95;
+  font-size: 12px;
+}
+#buttom-text span a{
+  color: #1935aa;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    .navbarrr{
+        border-radius: 0% !important;
+    }
+
+    .first-div, .second-div{
+        width: 100% !important; 
+        padding: 0% !important;
+        border-radius: 0 !important;
+    }
+
+    #signup-container{
+        border-radius: 0 !important;
+        
+    }
+}
